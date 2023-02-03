@@ -6,7 +6,7 @@
     @vite('resources/js/app.js')
     @inertiaHead
 </head>
-<body>
+<body class="w-full" style="height: 100vh">
 @inertia
 </body>
 </html>

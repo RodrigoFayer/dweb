@@ -1,7 +1,7 @@
 <template>
-  <div class="p-10 flex flex-col gap-2">
+  <div class="p-10 flex flex-col gap-2 bg-slate-800" style="height: 100vh">
     <div class="w-full justify-end">
-      <button class="border bg-slate-800 border-slate-800 text-white rounded-lg p-2" @click="showModal = true">Add To-do</button>
+      <button class="border bg-slate-500 border-slate-800 text-white rounded-lg p-2" @click="showModal = true">Add To-do</button>
     </div>
     <div class="grid grid-cols-3 gap-3">
       <div class="bg-slate-600 text-white px-2 py-2">
