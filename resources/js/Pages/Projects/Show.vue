@@ -13,7 +13,7 @@
             item-key="id"
         >
           <template #item="{ element }">
-            <div @click="() => edit(element.id, 'toDos')" class="list-group-item flex flex-col gap-0.5 bg-slate-800 p-2 my-2">
+            <div @click="() => edit(element.id, 'toDos')" class="list-group-item flex flex-col gap-0.5 bg-slate-800 p-2 my-2 cursor-pointer">
               <span>{{element.title}}</span>
               <span>{{element.personInCharge}}</span>
             </div>
