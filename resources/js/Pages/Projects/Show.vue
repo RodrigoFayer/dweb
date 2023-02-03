@@ -123,6 +123,14 @@ export default {
       this.showModal = true
     },
     confirm() {
+      if (this.title === ""){
+        alert("Please fill the title field")
+        return
+      }
+      if (this.personInCharge === ""){
+        alert("Please fill the person in charge field")
+        return;
+      }
       if (this.currentId === null && this.currentList === null) {
         this.toDos.push({id: 7, title: this.title, personInCharge: this.personInCharge})
       }else if(this.currentId !== null && this.currentList !== null) {
